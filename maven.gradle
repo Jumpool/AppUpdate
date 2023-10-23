@@ -13,14 +13,14 @@ afterEvaluate {
         publications {
             maven(MavenPublication) {
                 from components.release
-                groupId "io.github.azhon"
+                groupId "com.github.jumpool"
                 artifactId project.ARTIFACT_ID
                 version rootProject.ext.publishVersion
                 artifact generateSourcesJar
                 pom {
                     name = 'AppUpdate'
                     description = 'Android App update library. Android版本更新库，简单、轻量、可随意定制'
-                    url = 'https://github.com/azhon/AppUpdate'
+                    url = 'https://github.com/jumpool/AppUpdate'
                     licenses {
                         license {
                             name = 'The Apache License, Version 2.0'
@@ -29,15 +29,15 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id = 'azhon'
-                            name = 'azhon'
-                            email = 'azhon.cn@gmail.com'
+                            id = 'jumpool'
+                            name = 'jumpool'
+                            email = 'alvin.aj.jiao@gmail.com'
                         }
                     }
                     scm {
-                        connection = 'https://github.com/azhon/AppUpdate.git'
-                        developerConnection = 'https://github.com/azhon/AppUpdate.git'
-                        url = 'https://github.com/azhon/AppUpdate'
+                        connection = 'https://github.com/jumpool/AppUpdate.git'
+                        developerConnection = 'https://github.com/jumpool/AppUpdate.git'
+                        url = 'https://github.com/jumpool/AppUpdate'
                     }
                 }
             }
