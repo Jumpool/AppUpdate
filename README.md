@@ -68,7 +68,7 @@ src="https://github.com/azhon/AppUpdate/blob/main/img/qq_group.png">
 #### 第一步：`app/build.gradle`添加依赖
 
 ```groovy
-implementation 'io.github.azhon:appupdate:4.3.1'
+implementation 'com.github.jumpool:appupdate:4.3.1'
 ```
 
 <details>
